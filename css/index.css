@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* 상단 배너 */
+header {
+    background-color: white;
+    text-align: center;
+    padding: 2vh 0;
+}
+
+header #new {
+    font-size: 14px;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 1.5px 5px;
+}
+
+header #price {
+    font-size: 20px;
+}
+
+header a {
+    color: blue;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+/* navbar */
+nav {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+nav #left {
+    width: 85%;
+}
+
+nav #right {
+    width: 15%;
+}
+
+nav #logoImg {
+    padding-left: 30px;
+}
+
+nav select {
+    text-align: center;
+    width: 90px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+
+nav option {
+    background-color: gray;
+}
+
+nav button {
+    text-align: center;
+    width: 90px;
+    height: 35px;
+    margin-left: 30px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5%;
+}
+
+/* 메인 섹션 */
+#main {
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#main h1 {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+#main h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#main h3 {
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+#main input,
+#main button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main input:nth-child(4) {
+    height: 50px;
+    font-size: 14px;
+    width: 20%;
+    border: 1px solid white;
+}
+
+#main button {
+    width: 10%;
+    height: 54px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 22px;
+}
+
+/* PHP로 즐기세요 */
+#playWithPHP {
+    padding: 0 10%;
+    width: 80%;
+    border-top: 2px solid gray;
+    color: white;
+    text-align: center;
+}
+
+#playWithPHP #text {
+    width: 50%;
+}
