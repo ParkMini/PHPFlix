@@ -7,11 +7,17 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: black;
+    background: url(../assets/KR-ko-20230123-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
 }
 
 .bold {
     font-weight: bold;
+}
+
+#wrap {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 /* 상단 배너 */
@@ -141,4 +147,9 @@ nav button {
 
 #playWithPHP #text {
     width: 50%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
